@@ -68,7 +68,7 @@ export class Tab1Page {
     await alert.present();
   }
 
-
+  // ts
   logForm() {
     console.log(this.todo)
     if ((this.todo.A == null && this.todo.B == null) || (this.todo.A == null && this.todo.C == null) || (this.todo.B == null && this.todo.C == null)) {
