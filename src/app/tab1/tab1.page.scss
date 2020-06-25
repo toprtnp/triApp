@@ -1,0 +1,80 @@
+.triangle-bottomleft {
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 80px;
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid red;
+  border-right: 150px solid transparent;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  // color: black;
+}
+
+/* Bottom left text [B]*/
+.B_l {
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  color: purple;
+}
+
+/* Top left text [A]*/
+.A_l {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: brown;
+}
+
+/* Top right text */
+.c_ang{
+  position: absolute;
+  bottom: 15px;
+  left: 30%;
+  color: blue;
+}
+
+.b_ang{
+  position: absolute;
+  top: 15px;
+  left: 30%;
+  color: orange;
+}
+
+/* Bottom right text */
+.a_ang{
+  position: absolute;
+  bottom: 15px;
+  right: 30%;
+  color: green;
+}
+
+/* Centered text [C] */
+.C_l {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  color: red;
+  transform: translate(-50%, -50%);
+}
+
+.txt_blue {
+  color: blue;
+}
+
+.txt_purple {
+  color: purple;
+}
+
+.txt_red {
+  color: red;
+}

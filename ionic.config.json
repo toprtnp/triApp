@@ -1,0 +1,9 @@
+{
+  "name": "triApp",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "7a27f791"
+}
